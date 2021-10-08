@@ -1,0 +1,14 @@
+[package]
+name = "dynamodb_table"
+version = "0.1.0"
+authors = ["Alex Grinman <code@alexgrinman.com>"]
+edition = "2018"
+description = "expose your local web server to the internet with a public url"
+license = "MIT"
+repository = "https://github.com/agrinman/dynamo_table"
+readme = "../README.md"
+
+
+[dependencies]
+table_macro = { path = "table_macro"}
+internal = { path = "internal"}
